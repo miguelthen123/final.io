@@ -1,0 +1,204 @@
+html{
+    background-color:white;
+    height: 100%;
+    width: 100%;
+  }
+        
+.body {
+   display: flex;
+   flex-direction: row;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   padding: 0px;
+   width:100%;
+   height:100%;
+   position: relative;
+   object-fit: cover;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+ }
+.firstswiper{
+   width:100%;
+   height:100%;
+   object-fit: cover;
+   background-size: cover;
+}
+.swiper-wrapper{
+   width:100%;
+   height:100%;
+}
+.one{
+width: 100%;
+height: 100%;
+}
+.two{
+   width: 100%;
+   height: 100%; 
+}
+.three{
+   width: 100%;
+height: 100%;
+}
+.four{
+   width: 100%;
+height: 100%;
+}
+.five{
+   width: 100%;
+height: 100%;
+}
+.six{
+   width: 100%;
+height: 100%;
+}
+.seven{
+   width: 100%;
+height: 100%;
+}
+.swiper-slide{
+   width:100%;
+   height:100%;
+}
+.header{
+   width:947px;
+   height:273px;
+   position: relative;
+   z-index: 10000;
+   background-color: rgba(0,0,0,0.6);
+   position: fixed;
+   top:60%
+}
+.elephant{
+   font-size: 120px;
+   font-family: Helvetica;
+   color: rgb(255,213,118);
+   margin-top:20px;
+   margin-left:40px;
+
+
+}
+.official{
+   font-size: 40px;
+   font-family: Helvetica;
+   color: white;
+   margin-top: -120px;
+   margin-left: 40px;
+}
+.button{
+
+   z-index: 10000;
+   position: absolute;
+   margin-left: 90%;
+   top:80%;
+   position: fixed;
+   width: 100%;
+}
+.secondswiper{
+   display: none;
+}
+@media only screen and (max-width: 769px){
+ .firstswiper{
+    display: none;
+ }
+ .secondswiper{
+      width:100%;
+      height:100%;
+      object-fit: cover;
+      background-size: cover;
+      display:block;
+   }
+ }
+ 
+ .header1{
+   width:512px;
+   height:197px;
+   position: relative;
+   z-index: 10000;
+   background-color: rgba(0,0,0,0.6);
+   position: fixed;
+   top:60%
+}
+.elephant1{
+   font-size: 60px;
+   font-family: Helvetica;
+   color: rgb(255,213,118);
+   margin-top:20px;
+   margin-left:40px;
+
+
+}
+.official1{
+   font-size: 35px;
+   font-family: Helvetica;
+   color: white;
+   margin-top: -40px;
+   margin-left: 40px;
+}
+.button1{
+
+   z-index: 10000;
+   position: absolute;
+   margin-left: 90%;
+   top:70%;
+   position: fixed;
+   width: 100%;
+}
+.thirdswiper{
+   display: none;
+}
+
+@media only screen and (max-width: 414px){
+   .firstswiper{
+      display: none;
+   }
+   .secondswiper{
+      display:none;
+   }
+   .thirdswiper{
+      display: block;
+      width:100%;
+      height:100%;
+      object-fit: cover;
+      background-size: cover;
+   }
+
+   .header2{
+      width:255px;
+      height:95px;
+      position: relative;
+      z-index: 10000;
+      background-color: rgba(0,0,0,0.6);
+      position: fixed;
+      top:60%
+   }
+   .elephant2{
+      font-size: 30px;
+      font-family: Helvetica;
+      color: rgb(255,213,118);
+      margin-top:20px;
+      margin-left:20px;
+   
+   
+   }
+   .official2{
+      font-size: 18px;
+      font-family: Helvetica;
+      color: white;
+      margin-top: -20px;
+      margin-left: 20px;
+   }
+   .button2{
+   
+      z-index: 10000;
+      position: absolute;
+      margin-left: 75%;
+      top:65%;
+      position: fixed;
+      width: 100%;
+   }
+}
